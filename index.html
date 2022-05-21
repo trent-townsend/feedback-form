@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles.css">
+    <title>Course Feedback Form</title>
+
+
+<body>
+    <h1 id="title">Course Feedback Form</h1>
+    <div>
+        <p id="description"><em>We hope you enjoyed the course and leave with many new skills.<br>Please take a moment
+                to
+                provide feedback by filling out the form below.</em>
+        </p>
+    </div>
+
+    <div class="form-section">
+        <form id="survey-form">
+            <label for="name" id="name-label">Name</label>
+            <input id="name" required type="text" name="name" minlength="4" placeholder="Enter your name" size="45">
+            <label for="email" id="email-label">Email</label>
+            <input type="email" id="email" name="email" required placeholder="Enter your email" size="45">
+
+            <label for="number" id="number-label">Age <small><em>(optional)</em></small></label>
+            <input type="number" id="number" placeholder="Age" min=18 max="120">
+            <label for="role" id="role-label">Which option best describes your current role?</label>
+
+
+            <select name="role" id="dropdown">
+                <option value="">--Your current role --</option>
+                <option value="student">Student</option>
+                <option value="full time">Full time employment (38+ hr/week)</option>
+                <option value="part time">Part time employment</option>
+                <option value="self employed">Self employed / Freelancer</option>
+                <option value="unemployed">Unemployed - looking for work</option>
+                <option value="not working">Unemployed - not looking for work</option>
+                <option value="prefer not to say">Prefer not to say</option>
+            </select>
+
+
+            <fieldset>
+                <legend>What is your gender?</legend>
+                <div><input type="radio" id="male" value="male" name="gender"><label for="male">Male</label></div>
+                <div><input type="radio" id="female" value="female" name="gender"><label for="female">Female</label>
+                </div>
+            </fieldset>
+
+            <label for="comments">Any comments or suggestions?</label>
+            <textarea id="comments" placeholder="Enter your comments here..." rows="10" cols="45"></textarea>
+
+            <div>
+                <section class="choice">
+                    <input type="checkbox" value="sign-up" id="signup" class="choice">
+                    <section><label for="sign-up">I would like to sign up to the
+                            newsletter to receive the latest updates.</label></section>
+            </div>
+            <input type="checkbox" value="privacy" id="privacy-agreement" class="choice" required></section>
+            <section><label for="privacy-agreement" class="choice">I have read
+                    and
+                    agree to the <a href="#">Terms of Service</a> and <a href="#">Privacy Policy</a>.</label>
+            </section>
+
+            <button type="submit" id="submit">Submit</button>
+        </form>
+
+    </div>
+
+</body>
+
+
+</head>
+
+<body>
+
+</body>
+
+</html>

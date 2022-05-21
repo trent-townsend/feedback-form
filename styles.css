@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;1,300&family=Poppins:ital,wght@0,300;0,400;1,300&display=swap');
+
+body {
+    background-color: #202030;
+}
+
+#description {
+    text-align: center;
+}
+
+.form-section {
+    display: flex;
+    justify-content: center;
+    width: 70%;
+    height: 100%;
+    margin: 30px auto;
+}
+
+#title {
+    text-align: center;
+    color: #E0E1DD;
+    font-family: "Poppins", 'Times New Roman', Times, serif;
+}
+
+label, legend, p {
+    color: #E0E1DD;
+    display: block;
+    margin: 5px 0px;
+    font-family: "Open Sans", Georgia, Arial, Helvetica, sans-serif;
+    font-size: 1.1em;
+}
+
+input, select, textarea {
+    margin: 0px 0px 20px;
+    border-radius: 3px;
+    padding: 8px;
+    border: none;
+    font-family: "Open Sans", Georgia, Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+}
+
+input:focus, textarea:focus, select:focus {
+    outline: none;
+    border: 1px solid #B0A990;
+    box-shadow: 0 0 5px #A997DF;
+}
+
+
+a {
+    text-decoration: none;
+    color: #B0A990;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+fieldset label {
+    display: inline;
+    padding: 10px;
+}
+
+fieldset {
+    margin: 20px 0px 30px;
+    width: 220px;
+}
+
+#privacy-agreement, #sign-up {
+    background-color: black;
+}
+
+section {
+    display: inline-block;
+}
+
+.choice {
+    padding: 8px 0px;
+}
+
+input.choice {
+    margin: 10px;
+}
+
+#submit {
+    display: block;
+    margin: 50px auto;
+    font-family: "Poppins";
+    border: none;
+    padding: 8px 100px;
+    border-radius: 5px;
+    background-color: #B0A990;
+    color: #E0E1DD;
+}
+
+#submit:hover{
+    background-color:#B0A990D5;
+}
+
+}
